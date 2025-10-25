@@ -29,6 +29,10 @@ export const metadata: Metadata = {
     "energy services Middle East",
   ],
   authors: [{ name: "Venus International" }],
+  icons: {
+    icon: '/icon.png',
+    apple: '/apple-icon.png',
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
