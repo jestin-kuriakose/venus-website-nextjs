@@ -155,8 +155,7 @@ venus-website/
 ## Support
 
 For questions or issues, please contact:
-- Sales: sales@venusintlkwt.com
-- Engineering: engg@venusintlkwt.com
+- Email: info@venusintlkwt.com
 
 ## License
 

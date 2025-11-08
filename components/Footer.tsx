@@ -74,19 +74,10 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <Mail className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" />
-                <div className="space-y-1">
-                  <div>
-                    <span className="text-foreground font-medium">Sales:</span>{" "}
-                    <a href="mailto:sales@venusintlkwt.com" className="text-muted-foreground hover:text-primary transition-colors">
-                      sales@venusintlkwt.com
-                    </a>
-                  </div>
-                  <div>
-                    <span className="text-foreground font-medium">Engineering:</span>{" "}
-                    <a href="mailto:engg@venusintlkwt.com" className="text-muted-foreground hover:text-primary transition-colors">
-                      engg@venusintlkwt.com
-                    </a>
-                  </div>
+                <div>
+                  <a href="mailto:info@venusintlkwt.com" className="text-muted-foreground hover:text-primary transition-colors">
+                    info@venusintlkwt.com
+                  </a>
                 </div>
               </li>
             </ul>

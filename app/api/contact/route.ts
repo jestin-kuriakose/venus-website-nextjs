@@ -35,7 +35,7 @@ This message was sent from the Venus International contact form.
     // Send email using Resend
     const data = await resend.emails.send({
       from: "Venus International <noreply@venusintlkwt.com>",
-      to: ["sales@venusintlkwt.com"],
+      to: ["info@venusintlkwt.com"],
       replyTo: email,
       subject: `Contact Form: ${subject}`,
       text: emailContent,

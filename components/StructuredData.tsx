@@ -6,24 +6,14 @@ export default function StructuredData() {
     "description": "Leading oil and gas suppliers and contractors in Kuwait, serving the Middle East, North Africa, and Eastern Mediterranean.",
     "url": "https://venusintlkwt.com",
     "logo": "https://venusintlkwt.com/logo.png",
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "telephone": "",
-        "contactType": "Sales",
-        "email": "sales@venusintlkwt.com",
-        "areaServed": ["KW", "Middle East", "North Africa", "Eastern Mediterranean"],
-        "availableLanguage": ["en", "ar"]
-      },
-      {
-        "@type": "ContactPoint",
-        "telephone": "",
-        "contactType": "Engineering",
-        "email": "engg@venusintlkwt.com",
-        "areaServed": ["KW", "Middle East", "North Africa", "Eastern Mediterranean"],
-        "availableLanguage": ["en", "ar"]
-      }
-    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "",
+      "contactType": "customer service",
+      "email": "info@venusintlkwt.com",
+      "areaServed": ["KW", "Middle East", "North Africa", "Eastern Mediterranean"],
+      "availableLanguage": ["en", "ar"]
+    },
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Fahaheel",
@@ -71,7 +61,7 @@ export default function StructuredData() {
     },
     "url": "https://venusintlkwt.com",
     "telephone": "",
-    "email": "sales@venusintlkwt.com",
+    "email": "info@venusintlkwt.com",
     "priceRange": "$$",
     "openingHoursSpecification": [
       {

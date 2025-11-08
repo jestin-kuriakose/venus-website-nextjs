@@ -32,7 +32,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    details: ["Sales: sales@venusintlkwt.com", "Engineering: engg@venusintlkwt.com"],
+    details: ["info@venusintlkwt.com"],
   },
 ];
 
